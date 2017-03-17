@@ -1,0 +1,17 @@
+{
+  "root_workflow_uuid": "1b74aa08-1617-4ca7-9fe2-43d4ed31fcaf",
+  "workflow_uuid": "1b74aa08-1617-4ca7-9fe2-43d4ed31fcaf",
+  "wf_metadata": {
+    "creator": "obidele@dewey",
+    "created": "Thu Mar 16 16:45:34 2017"
+  },
+  "graph": {
+    "jobs": {
+      "stage_in_remote_local_0_0": {},
+      "stage_out_local_local_0_0": {},
+      "prms_ID0000001": {},
+      "cleanup_prms-wf_0_local": {},
+      "create_dir_prms-wf_0_local": {}
+    }
+  }
+}

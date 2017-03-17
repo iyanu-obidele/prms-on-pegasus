@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invocation xmlns="http://pegasus.isi.edu/schema/invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pegasus.isi.edu/schema/invocation http://pegasus.isi.edu/schema/iv-2.3.xsd" version="2.3" start="2017-03-16T16:33:30.427-07:00" duration="2.077" transformation="pegasus::transfer" derivation="null" resource="local" wf-label="process" wf-stamp="2017-03-16T15:52:52-07:00" interface="enp0s31f6" hostaddr="131.252.214.240" hostname="" pid="2514655" uid="8802" user="obidele" gid="300" group="them" umask="0022">
+  <mainjob start="2017-03-16T16:33:30.434-07:00" duration="2.070" pid="2514656">
+    <usage utime="0.036" stime="0.008" maxrss="15340" minflt="8970" majflt="0" nswap="0" inblock="16" outblock="24" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="65" nivcsw="16"/>
+    <status raw="0"><regular exitcode="0"/></status>
+    <statcall error="0">
+      <file name="/usr/bin/pegasus-transfer">23212F7573722F62696E2F707974686F</file>
+      <statinfo mode="0100755" size="138137" inode="429100" nlink="1" blksize="4096" blocks="272" mtime="2017-02-24T12:06:36-08:00" atime="2017-03-15T22:36:31-07:00" ctime="2017-02-27T10:17:33-08:00" uid="0" user="root" gid="0" group="root"/>
+    </statcall>
+    <argument-vector>
+      <arg nr="1">--threads</arg>
+      <arg nr="2">2</arg>
+    </argument-vector>
+  </mainjob>
+  <jobids condor="96.0"/>
+  <cwd>/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0016</cwd>
+  <usage utime="0.004" stime="0.000" maxrss="5920" minflt="201" majflt="0" nswap="0" inblock="0" outblock="0" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="4" nivcsw="1"/>
+  <machine page-size="4096">
+    <stamp>2017-03-16T16:33:30.427-07:00</stamp>
+    <uname system="linux" nodename="dewey" release="4.4.0-64-generic" machine="x86_64">#85-Ubuntu SMP Mon Feb 20 11:50:30 UTC 2017</uname>
+    <linux>
+      <ram total="16316480" free="10445188" shared="171268" buffer="597048"/>
+      <swap total="3997692" free="3997692"/>
+      <boot idle="7163157.100">2017-02-23T00:17:03.887-08:00</boot>
+      <cpu count="4" speed="3795" vendor="GenuineIntel">Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz</cpu>
+      <load min1="1.06" min5="1.03" min15="1.01"/>
+      <procs total="250" running="2" sleeping="246" zombie="2" vmsize="23199156" rss="1051296"/>
+      <task total="368" running="2" sleeping="364" zombie="2"/>
+    </linux>
+  </machine>
+  <statcall error="0" id="stdin">
+    <descriptor number="0"/>
+    <statinfo mode="0100600" size="415" inode="341848" nlink="1" blksize="1048576" blocks="2" mtime="2017-03-16T16:33:10-07:00" atime="2017-03-16T16:33:10-07:00" ctime="2017-03-16T16:33:10-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="0" id="stdout">
+    <temporary name="/var/spool/condor/local_univ_execute/dir_2514654/ks.out.f8Yc7B" descriptor="3"/>
+    <statinfo mode="0100600" size="1091" inode="1310843" nlink="1" blksize="4096" blocks="8" mtime="2017-03-16T16:33:32-07:00" atime="2017-03-16T16:33:30-07:00" ctime="2017-03-16T16:33:32-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+    <data>2017-03-16 16:33:30,467    INFO:  Reading URL pairs from stdin
+2017-03-16 16:33:30,469    INFO:  1 transfers loaded
+2017-03-16 16:33:30,469    INFO:  PATH=/usr/bin:/bin
+2017-03-16 16:33:30,469    INFO:  LD_LIBRARY_PATH=
+2017-03-16 16:33:30,478    INFO:  --------------------------------------------------------------------------------
+2017-03-16 16:33:30,478    INFO:  Starting transfers - attempt 1
+2017-03-16 16:33:32,483    INFO:  /bin/cp -f -R -L &apos;/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/control/sagehen.control&apos; &apos;/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/scratch/obidele/pegasus/process/run0016/./sagehen.control&apos;
+2017-03-16 16:33:32,501    INFO:  --------------------------------------------------------------------------------
+2017-03-16 16:33:32,501    INFO:  Stats: Total 1 transfers, 2.7 KB transferred in 2 seconds. Rate: 1.3 KB/s (10.6 Kb/s)
+2017-03-16 16:33:32,501    INFO:         Between sites local-&gt;local : 1 transfers, 2.7 KB transferred in 2 seconds. Rate: 1.3 KB/s (10.6 Kb/s)
+2017-03-16 16:33:32,501    INFO:  All transfers completed successfully.
+</data>
+  </statcall>
+  <statcall error="0" id="stderr">
+    <temporary name="/var/spool/condor/local_univ_execute/dir_2514654/ks.err.yxFxox" descriptor="4"/>
+    <statinfo mode="0100600" size="0" inode="1310844" nlink="1" blksize="4096" blocks="0" mtime="2017-03-16T16:33:30-07:00" atime="2017-03-16T16:33:30-07:00" ctime="2017-03-16T16:33:30-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="0" id="metadata">
+    <temporary name="/var/spool/condor/local_univ_execute/dir_2514654/ks.meta.NRiSFs" descriptor="5"/>
+    <statinfo mode="0100600" size="0" inode="1310845" nlink="1" blksize="4096" blocks="0" mtime="2017-03-16T16:33:30-07:00" atime="2017-03-16T16:33:30-07:00" ctime="2017-03-16T16:33:30-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+</invocation>

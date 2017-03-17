@@ -1,0 +1,15 @@
+000 (056.000.000) 03/14 21:44:33 Job submitted from host: <127.0.0.1:23672?addrs=127.0.0.1-23672>
+...
+001 (056.000.000) 03/14 21:44:33 Job executing on host: <127.0.0.1:23672?addrs=127.0.0.1-23672>
+...
+005 (056.000.000) 03/14 21:45:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...

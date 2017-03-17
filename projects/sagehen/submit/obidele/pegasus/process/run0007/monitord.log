@@ -1,0 +1,25 @@
+2017-03-15 22:36:25,243:INFO:pegasus-monitord(68): pegasus-monitord starting - pid 2397217 
+2017-03-15 22:36:25,246:INFO:pegasus-monitord(319): Final Command line options are: ['-N', 'process-0.dag.dagman.out']
+Created Pegasus database in: sqlite:////u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/process-0.stampede.db
+2017-03-15 22:36:25,693:INFO:Pegasus.monitoring.event_output(315): output type=DB namespace=stampede. name=sqlite:////u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/process-0.stampede.db
+2017-03-15 22:36:25,710:INFO:Pegasus.monitoring.event_output(315): output type=DB namespace=dashboard. name=sqlite:////u/obidele/.pegasus/workflow.db
+2017-03-15 22:36:25,710:INFO:pegasus-monitord(1010): monitord started in fast start mode
+2017-03-15 22:36:25,721:INFO:Pegasus.monitoring.workflow(360): cannot open state file /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/monitord.info, continuing without state...
+2017-03-15 22:36:25,722:INFO:Pegasus.monitoring.workflow(937): creating new file /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/jobstate.log
+2017-03-15 22:36:25,722:INFO:Pegasus.monitoring.workflow(945): Appending to exisitng jobstate.log replay_mode 0 previous_processed_line 0
+2017-03-15 22:36:25,723:INFO:Pegasus.monitoring.notifications(394): loading notifications from /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/process-0.notify
+2017-03-15 22:36:25,805:INFO:pegasus-monitord(773): Using DAGMan version 8.4.2 80402
+2017-03-15 22:36:25,805:INFO:pegasus-monitord(753): DAGMan runs at pid 2397215
+2017-03-15 22:36:25,806:INFO:pegasus-monitord(759): using dag process-0.dag
+2017-03-15 22:36:25,806:INFO:Pegasus.monitoring.workflow(675): DAGMan starting with condor id 60.0
+2017-03-15 22:50:51,459:WARNING:pegasus-monitord(819): DAGMan was aborted for workflow running in directory /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007
+2017-03-15 22:50:51,459:INFO:pegasus-monitord(733): DAGMan process-0.dag finished with exit code 2
+2017-03-15 22:50:52,471:INFO:pegasus-monitord(1169): workflow /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/process-0.dag.dagman.out ended
+2017-03-15 22:50:52,478:INFO:Pegasus.monitoring.workflow(1111): recovery file deleted: /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/monitord.recover
+2017-03-15 22:50:52,480:INFO:pegasus-monitord(1343): finishing workflow: /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0007/process-0.dag.dagman.out
+2017-03-15 22:50:52,480:INFO:pegasus-monitord(1395): finishing notifications...
+2017-03-15 22:50:52,480:INFO:pegasus-monitord(1400): monitord process 2397217 exiting with 0
+2017-03-15 22:50:52,481:INFO:pegasus-monitord(182): DB flushing beginning
+2017-03-15 22:50:52,481:INFO:Pegasus.db.workflow_loader.WorkflowLoader(1052): Executing final flush
+2017-03-15 22:50:52,490:INFO:Pegasus.db.dashboard_loader.DashboardLoader(343): Executing final flush
+2017-03-15 22:50:52,492:INFO:pegasus-monitord(196): DB flushing ended

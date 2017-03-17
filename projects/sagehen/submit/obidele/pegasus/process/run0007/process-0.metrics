@@ -1,0 +1,41 @@
+{
+  "client": "pegasus-plan",
+  "version": "4.7.4",
+  "type": "metrics",
+  "start_time": 1.489642578414E9,
+  "end_time": 1.489642584817E9,
+  "duration": 6.403,
+  "exitcode": 0,
+  "root_wf_uuid": "8f1464d6-54d7-4c3d-a49a-a14648733b8a",
+  "wf_uuid": "8f1464d6-54d7-4c3d-a49a-a14648733b8a",
+  "data_config": "condorio",
+  "planner_args": "--conf pegasus.properties --dax process.dax --dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit --input-dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/input --output-dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/output --cleanup leaf --force --sites condorpool --submit ",
+  "uses_pmc": false,
+  "wf_metrics": {
+    "compute_tasks": 1,
+    "dax_tasks": 0,
+    "dag_tasks": 0,
+    "total_tasks": 1,
+    "deleted_tasks": 0,
+    "dax_input_files": 0,
+    "dax_inter_files": 0,
+    "dax_output_files": 1,
+    "dax_total_files": 1,
+    "compute_jobs": 1,
+    "clustered_jobs": 0,
+    "si_tx_jobs": 0,
+    "so_tx_jobs": 1,
+    "inter_tx_jobs": 0,
+    "reg_jobs": 1,
+    "cleanup_jobs": 1,
+    "create_dir_jobs": 1,
+    "dax_jobs": 0,
+    "dag_jobs": 0,
+    "chmod_jobs": 0,
+    "total_jobs": 5
+  },
+  "app_metrics": {
+    "name": "pegasus-tutorial"
+  }
+}
+

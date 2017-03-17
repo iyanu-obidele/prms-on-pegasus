@@ -1,0 +1,76 @@
+
+
+
+                         U.S. Geological Survey
+               Precipitation-Runoff Modeling System (PRMS)
+              Version 4.0.2 08/15/2016 Tag: 08-15 13:54:00Z          
+
+
+The following modules are available:
+
+     Process                   Modules
+--------------------------------------------------------------------------
+  Basin Definition: basin
+    Cascading Flow: cascade
+  Time Series Data: obs
+   Potet Solar Rad: soltab
+  Temperature Dist: temp_1sta, temp_laps, temp_dist2, climate_hru
+       Precip Dist: precip_1sta, precip_laps, precip_dist2,
+                    climate_hru
+Temp & Precip Dist: xyz_dist, ide_dist
+    Solar Rad Dist: ccsolrad, ddsolrad, climate_hru
+Transpiration Dist: transp_tindex, climate_hru, transp_frost
+      Potential ET: potet_hamon, potet_jh, potet_pan, climate_hru,
+                    potet_hs, potet_pt, potet_pm
+      Interception: intcp
+     Snow Dynamics: snowcomp
+    Surface Runoff: srunoff_smidx, srunoff_carea
+         Soil Zone: soilzone
+       Groundwater: gwflow
+Streamflow Routing: strmflow, strmflow_in_out, muskingum, strmflow_lake
+    Output Summary: basin_sum, subbasin, map_results, prms_summary,
+                    nhru_summary, water_balance
+     Preprocessing: write_climate_hru, frost_date
+--------------------------------------------------------------------------
+
+
+Active modules listed in the order in which they are called:
+
+        Process                       Module            Version Date
+====================================================================
+Computation Order                call_modules.f90         2016-08-15    
+Basin Definition                 basin.f90                2016-05-10    
+Common States and Fluxes         climateflow.f90          2016-07-22    
+Potential Solar Radiation        soltab.f90               2016-15-10    
+PRMS Set Time Variables          prms_time.f90            2015-03-31    
+Time Series Data                 obs.f90                  2016-04-15    
+Temp & Precip Distribution       ide_dist.f               2016-07-22    
+Solar Radiation Distribution     ddsolrad.f90             2015-09-14    
+Transpiration Distribution       transp_tindex.f90        2015-01-06    
+Potential Evapotranspiration     potet_jh.f90             2016-05-10    
+Canopy Interception              intcp.f90                2016-07-06    
+Snow Dynamics                    snowcomp.f90             2016-06-16    
+Surface Runoff                   srunoff_smidx.f90        2016-06-16    
+Soil Zone Computations           soilzone.f90             2016-07-18    
+Groundwater                      gwflow.f90               2016-06-01    
+Streamflow Routing               strmflow.f90             2014-12-02    
+Summary                          basin_sum.f90            2016-06-16    
+Output Summary                   prms_summary.f90         2016-02-26    
+====================================================================
+
+
+ Start time: 1993/10/01 00:00:00
+ End time:   1995/09/30 00:00:00
+ Sum of HRU areas:   206059.42; Active basin area:   206059.42
+ Fraction impervious:   0.0001; Fraction pervious:      0.9999
+
+
+
+
+   Year Month Day   Precip     ET    Storage S-Runoff M-Runoff
+                  (inches) (inches) (inches) (inches) (inches)
+ -------------------------------------------------------------
+ initial                               7.288
+ *************************************************************
+ Total for run     100.986   43.441    7.589   57.244   67.341
+ *************************************************************

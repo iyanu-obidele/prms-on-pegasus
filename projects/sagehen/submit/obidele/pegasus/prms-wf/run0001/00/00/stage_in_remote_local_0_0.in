@@ -1,0 +1,11 @@
+[
+ { "type": "transfer",
+   "lfn": "sagehen.control",
+   "id": 1,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/control/sagehen.control", "priority": 100 }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/scratch/obidele/pegasus/prms-wf/run0001/./sagehen.control" }
+   ] }
+]

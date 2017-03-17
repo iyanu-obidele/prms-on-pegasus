@@ -1,0 +1,10 @@
+2017-03-16 16:34:21,417    INFO:  Reading URL pairs from stdin
+2017-03-16 16:34:21,418    INFO:  1 transfers loaded
+2017-03-16 16:34:21,418    INFO:  PATH=/usr/bin:/bin
+2017-03-16 16:34:21,418    INFO:  LD_LIBRARY_PATH=
+2017-03-16 16:34:21,430    INFO:  --------------------------------------------------------------------------------
+2017-03-16 16:34:21,430    INFO:  Starting transfers - attempt 1
+2017-03-16 16:34:23,432    INFO:  /bin/rm -f -r  '/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/scratch/obidele/pegasus/process/run0016' 
+2017-03-16 16:34:23,450    INFO:  --------------------------------------------------------------------------------
+2017-03-16 16:34:23,450    INFO:  Stats: no local files in the transfer set
+2017-03-16 16:34:23,450    INFO:  All transfers completed successfully.

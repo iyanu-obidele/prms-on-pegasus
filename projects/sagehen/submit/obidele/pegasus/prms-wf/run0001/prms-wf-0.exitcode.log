@@ -1,0 +1,4 @@
+{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T18:02:04.782766", "name": ".//00/00/create_dir_prms-wf_0_local.out", "exitcode": 0, "app_exitcode": 0}
+{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T18:02:20.036262", "name": ".//00/00/stage_in_remote_local_0_0.out", "exitcode": 0, "app_exitcode": 0}
+{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T18:02:40.476782", "name": ".//00/00/prms_ID0000001.out", "exitcode": 0, "app_exitcode": 0}
+{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T18:02:55.769485", "name": ".//00/00/stage_out_local_local_0_0.out", "exitcode": 0, "app_exitcode": 0}

@@ -1,0 +1,36 @@
+1489712516 INTERNAL *** MONITORD_STARTED ***
+1489712515 INTERNAL *** DAGMAN_STARTED 100.0 ***
+1489712519 create_dir_prms-wf_0_local SUBMIT 101.0 local - 1
+1489712524 create_dir_prms-wf_0_local EXECUTE 101.0 local - 1
+1489712524 create_dir_prms-wf_0_local JOB_TERMINATED 101.0 local - 1
+1489712524 create_dir_prms-wf_0_local JOB_SUCCESS 0 local - 1
+1489712524 create_dir_prms-wf_0_local POST_SCRIPT_STARTED 101.0 local - 1
+1489712529 create_dir_prms-wf_0_local POST_SCRIPT_TERMINATED 101.0 local - 1
+1489712529 create_dir_prms-wf_0_local POST_SCRIPT_SUCCESS 0 local - 1
+1489712534 stage_in_remote_local_0_0 SUBMIT 102.0 local - 2
+1489712539 stage_in_remote_local_0_0 EXECUTE 102.0 local - 2
+1489712539 stage_in_remote_local_0_0 JOB_TERMINATED 102.0 local - 2
+1489712539 stage_in_remote_local_0_0 JOB_SUCCESS 0 local - 2
+1489712539 stage_in_remote_local_0_0 POST_SCRIPT_STARTED 102.0 local - 2
+1489712545 stage_in_remote_local_0_0 POST_SCRIPT_TERMINATED 102.0 local - 2
+1489712545 stage_in_remote_local_0_0 POST_SCRIPT_SUCCESS 0 local - 2
+1489712550 prms_ID0000001 SUBMIT 103.0 condorpool - 3
+1489712560 prms_ID0000001 EXECUTE 103.0 condorpool - 3
+1489712560 prms_ID0000001 JOB_TERMINATED 103.0 condorpool - 3
+1489712560 prms_ID0000001 JOB_SUCCESS 0 condorpool - 3
+1489712560 prms_ID0000001 POST_SCRIPT_STARTED 103.0 condorpool - 3
+1489712565 prms_ID0000001 POST_SCRIPT_TERMINATED 103.0 condorpool - 3
+1489712565 prms_ID0000001 POST_SCRIPT_SUCCESS 0 condorpool - 3
+1489712570 stage_out_local_local_0_0 SUBMIT 104.0 local - 4
+1489712575 stage_out_local_local_0_0 EXECUTE 104.0 local - 4
+1489712575 stage_out_local_local_0_0 JOB_TERMINATED 104.0 local - 4
+1489712575 stage_out_local_local_0_0 JOB_SUCCESS 0 local - 4
+1489712575 stage_out_local_local_0_0 POST_SCRIPT_STARTED 104.0 local - 4
+1489712580 stage_out_local_local_0_0 POST_SCRIPT_TERMINATED 104.0 local - 4
+1489712580 stage_out_local_local_0_0 POST_SCRIPT_SUCCESS 0 local - 4
+1489712585 cleanup_prms-wf_0_local SUBMIT 105.0 local - 5
+1489712591 cleanup_prms-wf_0_local EXECUTE 105.0 local - 5
+1489712591 cleanup_prms-wf_0_local JOB_TERMINATED 105.0 local - 5
+1489712591 cleanup_prms-wf_0_local JOB_SUCCESS 0 local - 5
+1489712591 INTERNAL *** DAGMAN_FINISHED 0 ***
+1489712592 INTERNAL *** MONITORD_FINISHED 0 ***

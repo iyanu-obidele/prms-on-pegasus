@@ -1,0 +1,39 @@
+000 (061.000.000) 03/15 22:36:28 Job submitted from host: <127.0.0.1:23672?addrs=127.0.0.1-23672>
+    DAG Node: create_dir_process_0_local
+    pool:local
+...
+001 (061.000.000) 03/15 22:36:31 Job executing on host: <127.0.0.1:63349?addrs=127.0.0.1-63349>
+...
+005 (061.000.000) 03/15 22:36:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (061.000.000) 03/15 22:36:34 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: create_dir_process_0_local
+...
+000 (062.000.000) 03/15 22:36:44 Job submitted from host: <127.0.0.1:23672?addrs=127.0.0.1-23672>
+    DAG Node: prms_ID0000001
+    pool:condorpool
+...
+001 (062.000.000) 03/15 22:37:04 Job executing on host: <127.0.0.1:60981?addrs=127.0.0.1-60981>
+...
+007 (062.000.000) 03/15 22:37:05 Shadow exception!
+	Error from slot1@dewey.cs.pdx.edu: STARTER at 127.0.0.1 failed to send file(s) to <127.0.0.1:11385>: error reading from /var/lib/condor/execute/dir_2397310/sagehen.control: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <127.0.0.1:53498>
+	7965  -  Run Bytes Sent By Job
+	10322882  -  Run Bytes Received By Job
+...
+012 (062.000.000) 03/15 22:37:05 Job was held.
+	Error from slot1@dewey.cs.pdx.edu: STARTER at 127.0.0.1 failed to send file(s) to <127.0.0.1:11385>: error reading from /var/lib/condor/execute/dir_2397310/sagehen.control: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <127.0.0.1:53498>
+	Code 13 Subcode 2
+...
+009 (062.000.000) 03/15 22:50:50 Job was aborted by the user.
+	removed because <OtherJobRemoveRequirements = DAGManJobId =?= 60> fired when job (60.0) was removed
+...

@@ -1,0 +1,29 @@
+1489695614 INTERNAL *** MONITORD_STARTED ***
+1489695613 INTERNAL *** DAGMAN_STARTED 83.0 ***
+1489695617 create_dir_process_0_local SUBMIT 84.0 local - 1
+1489695622 create_dir_process_0_local EXECUTE 84.0 local - 1
+1489695622 create_dir_process_0_local JOB_TERMINATED 84.0 local - 1
+1489695622 create_dir_process_0_local JOB_SUCCESS 0 local - 1
+1489695622 create_dir_process_0_local POST_SCRIPT_STARTED 84.0 local - 1
+1489695627 create_dir_process_0_local POST_SCRIPT_TERMINATED 84.0 local - 1
+1489695627 create_dir_process_0_local POST_SCRIPT_SUCCESS 0 local - 1
+1489695633 stage_in_remote_local_0_0 SUBMIT 85.0 local - 2
+1489695638 stage_in_remote_local_0_0 EXECUTE 85.0 local - 2
+1489695638 stage_in_remote_local_0_0 JOB_TERMINATED 85.0 local - 2
+1489695638 stage_in_remote_local_0_0 JOB_SUCCESS 0 local - 2
+1489695638 stage_in_remote_local_0_0 POST_SCRIPT_STARTED 85.0 local - 2
+1489695643 stage_in_remote_local_0_0 POST_SCRIPT_TERMINATED 85.0 local - 2
+1489695643 stage_in_remote_local_0_0 POST_SCRIPT_SUCCESS 0 local - 2
+1489695648 prms_ID0000001 SUBMIT 86.0 condorpool - 3
+1489695658 prms_ID0000001 EXECUTE 86.0 condorpool - 3
+1489695658 prms_ID0000001 JOB_TERMINATED 86.0 condorpool - 3
+1489695658 prms_ID0000001 JOB_SUCCESS 0 condorpool - 3
+1489695658 prms_ID0000001 POST_SCRIPT_STARTED 86.0 condorpool - 3
+1489695663 prms_ID0000001 POST_SCRIPT_TERMINATED 86.0 condorpool - 3
+1489695663 prms_ID0000001 POST_SCRIPT_SUCCESS 0 condorpool - 3
+1489695668 cleanup_process_0_local SUBMIT 87.0 local - 4
+1489695673 cleanup_process_0_local EXECUTE 87.0 local - 4
+1489695673 cleanup_process_0_local JOB_TERMINATED 87.0 local - 4
+1489695673 cleanup_process_0_local JOB_SUCCESS 0 local - 4
+1489695673 INTERNAL *** DAGMAN_FINISHED 0 ***
+1489695674 INTERNAL *** MONITORD_FINISHED 0 ***

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invocation xmlns="http://pegasus.isi.edu/schema/invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pegasus.isi.edu/schema/invocation http://pegasus.isi.edu/schema/iv-2.3.xsd" version="2.3" start="2017-03-14T20:59:43.199-07:00" duration="0.006" transformation="prms" derivation="ID0000001" resource="condorpool" wf-label="process" wf-stamp="2017-03-14T20:59:08-07:00" interface="enp0s31f6" hostaddr="131.252.214.240" hostname="" pid="2235066" uid="8802" user="obidele" gid="300" group="them" umask="0022">
+  <mainjob start="1969-12-31T16:00:00.000-08:00" duration="0.000">
+    <usage utime="0.000" stime="0.000" maxrss="0" minflt="0" majflt="0" nswap="0" inblock="0" outblock="0" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="0" nivcsw="0"/>
+    <status raw="-127"><failure error="2">No such file or directory</failure></status>
+    <statcall error="2">
+      <file name="../../bin/prms"/>
+    </statcall>
+    <argument-vector>
+      <arg nr="1">control/sagehen.control</arg>
+    </argument-vector>
+  </mainjob>
+  <jobids condor="42.0"/>
+  <cwd/>
+  <usage utime="0.000" stime="0.004" maxrss="1904" minflt="110" majflt="0" nswap="0" inblock="0" outblock="0" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="0" nivcsw="1"/>
+  <machine page-size="4096">
+    <stamp>2017-03-14T20:59:43.200-07:00</stamp>
+    <uname system="linux" nodename="dewey" release="4.4.0-64-generic" machine="x86_64">#85-Ubuntu SMP Mon Feb 20 11:50:30 UTC 2017</uname>
+    <linux>
+      <ram total="16316480" free="11833800" shared="171088" buffer="590280"/>
+      <swap total="3997692" free="3997692"/>
+      <boot idle="6696257.080">2017-02-23T00:17:03.880-08:00</boot>
+      <cpu count="4" speed="3729" vendor="GenuineIntel">Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz</cpu>
+      <load min1="1.27" min5="1.08" min15="1.02"/>
+      <procs total="236" running="2" sleeping="233" zombie="1" vmsize="21679620" rss="960020"/>
+      <task total="354" running="2" sleeping="351" zombie="1"/>
+    </linux>
+  </machine>
+  <statcall error="0" id="stdin">
+    <file name="/dev/null"/>
+    <statinfo mode="020666" size="0" inode="6" nlink="1" blksize="4096" blocks="0" mtime="2017-02-23T00:17:10-08:00" atime="2017-02-23T00:17:10-08:00" ctime="2017-02-23T00:17:10-08:00" uid="0" user="root" gid="0" group="root"/>
+  </statcall>
+  <statcall error="0" id="stdout">
+    <file name="/var/lib/condor/execute/dir_2234982/listing.txt"/>
+    <statinfo mode="0100644" size="0" inode="145729" nlink="1" blksize="4096" blocks="0" mtime="2017-03-14T20:59:43-07:00" atime="2017-03-14T20:59:43-07:00" ctime="2017-03-14T20:59:43-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="0" id="stderr">
+    <temporary name="/var/lib/condor/execute/dir_2234982/ks.err.PTAAOj" descriptor="4"/>
+    <statinfo mode="0100600" size="0" inode="145730" nlink="1" blksize="4096" blocks="0" mtime="2017-03-14T20:59:43-07:00" atime="2017-03-14T20:59:43-07:00" ctime="2017-03-14T20:59:43-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="0" id="metadata">
+    <temporary name="/var/lib/condor/execute/dir_2234982/ks.meta.DMvNrL" descriptor="5"/>
+    <statinfo mode="0100600" size="0" inode="145731" nlink="1" blksize="4096" blocks="0" mtime="2017-03-14T20:59:43-07:00" atime="2017-03-14T20:59:43-07:00" ctime="2017-03-14T20:59:43-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="2" id="kickstart">
+    <!-- ignore above error -->
+    <file name="pegasus-kickstart"/>
+  </statcall>
+  <statcall error="0" id="logfile">
+    <descriptor number="1"/>
+    <statinfo mode="0100644" size="0" inode="135936" nlink="1" blksize="4096" blocks="0" mtime="2017-03-14T20:59:42-07:00" atime="2017-03-14T20:59:42-07:00" ctime="2017-03-14T20:59:42-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <environment>
+    <env key="_CONDOR_JOB_PIDS"></env>
+    <env key="_CONDOR_ANCESTOR_249003">2234982:1489550382:1093270405</env>
+    <env key="CONDOR_JOBID">42.0</env>
+    <env key="_CONDOR_ANCESTOR_2234982">2234989:1489550382:1507897535</env>
+    <env key="PEGASUS_SITE">condorpool</env>
+    <env key="TMPDIR">/var/lib/condor/execute/dir_2234982</env>
+    <env key="_CONDOR_SCRATCH_DIR">/var/lib/condor/execute/dir_2234982</env>
+    <env key="_CHIRP_DELAYED_UPDATE_PREFIX">Chirp*</env>
+    <env key="PEGASUS_WF_UUID">aee7df1d-bbd9-427f-b04b-d53f69f58e87</env>
+    <env key="TEMP">/var/lib/condor/execute/dir_2234982</env>
+    <env key="PEGASUS_DAG_JOB_ID">prms_ID0000001</env>
+    <env key="BATCH_SYSTEM">HTCondor</env>
+    <env key="_CONDOR_CHIRP_CONFIG">/var/lib/condor/execute/dir_2234982/.chirp.config</env>
+    <env key="PATH">/var/lib/condor/execute/dir_2234982/pegasus-4.7.4/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:.</env>
+    <env key="PWD">/var/lib/condor/execute/dir_2234982</env>
+    <env key="PEGASUS_WF_LABEL">process</env>
+    <env key="_CONDOR_SLOT">slot1</env>
+    <env key="SHLVL">1</env>
+    <env key="_CONDOR_MACHINE_AD">/var/lib/condor/execute/dir_2234982/.machine.ad</env>
+    <env key="TMP">/var/lib/condor/execute/dir_2234982</env>
+    <env key="_CONDOR_ANCESTOR_248993">249003:1488352901:2661652837</env>
+    <env key="OMP_NUM_THREADS">1</env>
+    <env key="_CONDOR_JOB_AD">/var/lib/condor/execute/dir_2234982/.job.ad</env>
+    <env key="pegasus_lite_work_dir">/var/lib/condor/execute/dir_2234982</env>
+    <env key="_CONDOR_JOB_IWD">/var/lib/condor/execute/dir_2234982</env>
+    <env key="_">/var/lib/condor/execute/dir_2234982/pegasus-4.7.4/bin/pegasus-kickstart</env>
+    <env key="KICKSTART_METADATA">/var/lib/condor/execute/dir_2234982/ks.meta.DMvNrL</env>
+  </environment>
+  <resource>
+    <soft id="RLIMIT_CPU">unlimited</soft>
+    <hard id="RLIMIT_CPU">unlimited</hard>
+    <soft id="RLIMIT_FSIZE">unlimited</soft>
+    <hard id="RLIMIT_FSIZE">unlimited</hard>
+    <soft id="RLIMIT_DATA">unlimited</soft>
+    <hard id="RLIMIT_DATA">unlimited</hard>
+    <soft id="RLIMIT_STACK">unlimited</soft>
+    <hard id="RLIMIT_STACK">unlimited</hard>
+    <soft id="RLIMIT_CORE">0</soft>
+    <hard id="RLIMIT_CORE">0</hard>
+    <soft id="RESOURCE_5">unlimited</soft>
+    <hard id="RESOURCE_5">unlimited</hard>
+    <soft id="RLIMIT_NPROC">63574</soft>
+    <hard id="RLIMIT_NPROC">63574</hard>
+    <soft id="RLIMIT_NOFILE">16384</soft>
+    <hard id="RLIMIT_NOFILE">16384</hard>
+    <soft id="RLIMIT_MEMLOCK">65536</soft>
+    <hard id="RLIMIT_MEMLOCK">65536</hard>
+    <soft id="RLIMIT_AS">unlimited</soft>
+    <hard id="RLIMIT_AS">unlimited</hard>
+    <soft id="RLIMIT_LOCKS">unlimited</soft>
+    <hard id="RLIMIT_LOCKS">unlimited</hard>
+    <soft id="RLIMIT_SIGPENDING">63574</soft>
+    <hard id="RLIMIT_SIGPENDING">63574</hard>
+    <soft id="RLIMIT_MSGQUEUE">819200</soft>
+    <hard id="RLIMIT_MSGQUEUE">819200</hard>
+    <soft id="RLIMIT_NICE">0</soft>
+    <hard id="RLIMIT_NICE">0</hard>
+    <soft id="RLIMIT_RTPRIO">0</soft>
+    <hard id="RLIMIT_RTPRIO">0</hard>
+    <soft id="RESOURCE_15">unlimited</soft>
+    <hard id="RESOURCE_15">unlimited</hard>
+  </resource>
+</invocation>

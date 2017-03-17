@@ -1,0 +1,27 @@
+user obidele
+grid_dn null
+submit_hostname 
+root_wf_uuid d6cf9f40-442b-4323-aa5a-e895cdd83f7f
+wf_uuid d6cf9f40-442b-4323-aa5a-e895cdd83f7f
+dax /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/process.dax
+dax_label process
+dax_index 0
+dax_version 3.6
+pegasus_wf_name process-0
+timestamp 20170315T224941-0700
+basedir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit
+submit_dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0009
+planner /usr/bin/pegasus-plan
+planner_version 4.7.4
+pegasus_build 20170224200515Z
+planner_arguments "--conf pegasus.properties --dax process.dax --dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit --input-dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/input --output-dir /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/output --cleanup leaf --force --sites condorpool --submit "
+jsd jobstate.log
+rundir run0009
+bindir /usr/bin
+vogroup pegasus
+uses_pmc false
+properties pegasus.1215340094395072849.properties
+condor_log process-0.log
+dag process-0.dag
+type dag
+notify process-0.notify

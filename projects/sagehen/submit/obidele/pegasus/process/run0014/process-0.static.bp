@@ -1,0 +1,13 @@
+ts=2017-03-16T20:20:12.688089Z event=task.info xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f task.id="ID0000001" type="1" type_desc="compute" transformation="prms" argv="-C sagehen.control" 
+ts=2017-03-16T20:20:12.728101Z event=static.meta.start xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f 
+ts=2017-03-16T20:20:12.728206Z event=xwf.meta xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f key="creator" value="obidele@dewey" 
+ts=2017-03-16T20:20:12.728247Z event=xwf.meta xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f key="created" value="Thu Mar 16 13:14:34 2017" 
+ts=2017-03-16T20:20:12.728301Z event=static.meta.end xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f 
+ts=2017-03-16T20:20:12.975642Z event=job.info xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f job.id="cleanup_process_0_local" submit_file="cleanup_process_0_local.sub" type="8" type_desc="cleanup" clustered="0" max_retries="1" executable="/usr/bin/pegasus-transfer" task_count="0" 
+ts=2017-03-16T20:20:12.975748Z event=job.info xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f job.id="stage_in_remote_local_0_0" submit_file="stage_in_remote_local_0_0.sub" type="2" type_desc="stage-in-tx" clustered="0" max_retries="1" executable="/usr/bin/../bin/pegasus-kickstart" argv=" -n pegasus::transfer -N null -i - -R local  -L process -T 2017-03-16T13:15:03-07:00 /usr/bin/../bin/pegasus-transfer  --threads 2 " task_count="0" 
+ts=2017-03-16T20:20:12.975830Z event=job.info xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f job.id="prms_ID0000001" submit_file="prms_ID0000001.sub" type="1" type_desc="compute" clustered="0" max_retries="1" executable="/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/process/run0014/00/00/prms_ID0000001.sh" task_count="1" 
+ts=2017-03-16T20:20:12.975880Z event=job.info xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f job.id="create_dir_process_0_local" submit_file="create_dir_process_0_local.sub" type="6" type_desc="create-dir" clustered="0" max_retries="1" executable="/usr/bin/pegasus-transfer" task_count="0" 
+ts=2017-03-16T20:20:12.975945Z event=wf.map.task_job xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f job.id="prms_ID0000001" task.id="ID0000001" 
+ts=2017-03-16T20:20:12.975995Z event=job.edge xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f parent.job.id="stage_in_remote_local_0_0" child.job.id="prms_ID0000001" 
+ts=2017-03-16T20:20:12.976037Z event=job.edge xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f parent.job.id="prms_ID0000001" child.job.id="cleanup_process_0_local" 
+ts=2017-03-16T20:20:12.976081Z event=job.edge xwf.id=352b62cb-a7fe-4d9d-bb9f-447c52487e5f parent.job.id="create_dir_process_0_local" child.job.id="stage_in_remote_local_0_0" 

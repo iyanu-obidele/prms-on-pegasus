@@ -1,0 +1,35 @@
+######################################################################
+# PEGASUS WMS GENERATED DAG FILE
+# DAG prms-wf
+# Index = 0, Count = 1
+######################################################################
+MAXJOBS registration 1
+
+JOB create_dir_prms-wf_0_local 00/00/create_dir_prms-wf_0_local.sub
+SCRIPT POST create_dir_prms-wf_0_local /usr/bin/pegasus-exitcode  -l prms-wf-0.exitcode.log -r $RETURN .//00/00/create_dir_prms-wf_0_local.out
+RETRY create_dir_prms-wf_0_local 1
+
+JOB stage_in_remote_local_0_0 00/00/stage_in_remote_local_0_0.sub
+SCRIPT POST stage_in_remote_local_0_0 /usr/bin/pegasus-exitcode  -l prms-wf-0.exitcode.log  .//00/00/stage_in_remote_local_0_0.out
+RETRY stage_in_remote_local_0_0 1
+CATEGORY stage_in_remote_local_0_0 stage-in
+
+JOB prms_ID0000001 00/00/prms_ID0000001.sub
+SCRIPT POST prms_ID0000001 /usr/bin/pegasus-exitcode  -s PegasusLite:+exitcode+0 -l prms-wf-0.exitcode.log  .//00/00/prms_ID0000001.out
+RETRY prms_ID0000001 1
+
+JOB stage_out_local_local_0_0 00/00/stage_out_local_local_0_0.sub
+SCRIPT POST stage_out_local_local_0_0 /usr/bin/pegasus-exitcode  -l prms-wf-0.exitcode.log  .//00/00/stage_out_local_local_0_0.out
+RETRY stage_out_local_local_0_0 1
+CATEGORY stage_out_local_local_0_0 stage-out
+
+JOB cleanup_prms-wf_0_local 00/00/cleanup_prms-wf_0_local.sub
+RETRY cleanup_prms-wf_0_local 1
+
+PARENT  stage_in_remote_local_0_0 CHILD prms_ID0000001
+PARENT  stage_out_local_local_0_0 CHILD cleanup_prms-wf_0_local
+PARENT  prms_ID0000001 CHILD stage_out_local_local_0_0
+PARENT  create_dir_prms-wf_0_local CHILD stage_in_remote_local_0_0
+######################################################################
+# End of DAG
+######################################################################

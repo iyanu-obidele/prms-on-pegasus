@@ -1,0 +1,43 @@
+######################################################################
+# PEGASUS WMS GENERATED SUBMIT FILE
+# DAG : prms-wf, Index = 0, Count = 1
+# SUBMIT FILE NAME : prms_ID0000001.sub
+######################################################################
+stream_error  = false
+stream_output = false
+environment = "CONDOR_JOBID=$(cluster).$(process) PEGASUS_WF_UUID=1b74aa08-1617-4ca7-9fe2-43d4ed31fcaf PEGASUS_WF_LABEL=prms-wf PEGASUS_DAG_JOB_ID=prms_ID0000001 PEGASUS_SITE=condorpool "
+copy_to_spool = false
+error = /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/prms-wf/run0001//00/00/prms_ID0000001.err
+executable = /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/prms-wf/run0001/00/00/prms_ID0000001.sh
+initialdir = /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/scratch/obidele/pegasus/prms-wf/run0001
+log = /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/prms-wf/run0001/prms-wf-0.log
+notification = NEVER
+output = /u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/prms-wf/run0001//00/00/prms_ID0000001.out
+periodic_release = False
+periodic_remove = (JobStatus == 5) && ((CurrentTime - EnteredCurrentStatus) > 1800)
+priority = 20
+should_transfer_files = YES
+submit_event_user_notes = pool:condorpool
+transfer_executable = true
+transfer_input_files = sagehen.control,/usr/share/pegasus/sh/pegasus-lite-common.sh,/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/submit/obidele/pegasus/prms-wf/run0001/pegasus-worker-4.7.4-x86_64_ubuntu_16.tar.gz
+transfer_output_files = prms.output,
+universe = vanilla
+when_to_transfer_output = ON_EXIT
++pegasus_generator = "Pegasus"
++pegasus_root_wf_uuid = "1b74aa08-1617-4ca7-9fe2-43d4ed31fcaf"
++pegasus_wf_uuid = "1b74aa08-1617-4ca7-9fe2-43d4ed31fcaf"
++pegasus_version = "4.7.4"
++pegasus_wf_name = "prms-wf-0"
++pegasus_wf_time = "20170316T180149-0700"
++pegasus_wf_xformation = "prms"
++pegasus_wf_dax_job_id = "ID0000001"
++pegasus_wf_dag_job_id = "prms_ID0000001"
++pegasus_job_class = 1
++pegasus_site = "condorpool"
++pegasus_job_runtime = 0
++pegasus_cores = 1
++pegasus_cluster_size = 1
+queue
+######################################################################
+# END OF SUBMIT FILE
+######################################################################

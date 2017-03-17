@@ -1,0 +1,36 @@
+1489707191 INTERNAL *** MONITORD_STARTED ***
+1489707190 INTERNAL *** DAGMAN_STARTED 94.0 ***
+1489707195 create_dir_process_0_local SUBMIT 95.0 local - 1
+1489707200 create_dir_process_0_local EXECUTE 95.0 local - 1
+1489707200 create_dir_process_0_local JOB_TERMINATED 95.0 local - 1
+1489707200 create_dir_process_0_local JOB_SUCCESS 0 local - 1
+1489707200 create_dir_process_0_local POST_SCRIPT_STARTED 95.0 local - 1
+1489707205 create_dir_process_0_local POST_SCRIPT_TERMINATED 95.0 local - 1
+1489707205 create_dir_process_0_local POST_SCRIPT_SUCCESS 0 local - 1
+1489707210 stage_in_remote_local_0_0 SUBMIT 96.0 local - 2
+1489707215 stage_in_remote_local_0_0 EXECUTE 96.0 local - 2
+1489707215 stage_in_remote_local_0_0 JOB_TERMINATED 96.0 local - 2
+1489707215 stage_in_remote_local_0_0 JOB_SUCCESS 0 local - 2
+1489707215 stage_in_remote_local_0_0 POST_SCRIPT_STARTED 96.0 local - 2
+1489707220 stage_in_remote_local_0_0 POST_SCRIPT_TERMINATED 96.0 local - 2
+1489707220 stage_in_remote_local_0_0 POST_SCRIPT_SUCCESS 0 local - 2
+1489707225 prms_ID0000001 SUBMIT 97.0 condorpool - 3
+1489707235 prms_ID0000001 EXECUTE 97.0 condorpool - 3
+1489707235 prms_ID0000001 JOB_TERMINATED 97.0 condorpool - 3
+1489707235 prms_ID0000001 JOB_SUCCESS 0 condorpool - 3
+1489707235 prms_ID0000001 POST_SCRIPT_STARTED 97.0 condorpool - 3
+1489707240 prms_ID0000001 POST_SCRIPT_TERMINATED 97.0 condorpool - 3
+1489707240 prms_ID0000001 POST_SCRIPT_SUCCESS 0 condorpool - 3
+1489707245 stage_out_local_local_0_0 SUBMIT 98.0 local - 4
+1489707250 stage_out_local_local_0_0 EXECUTE 98.0 local - 4
+1489707250 stage_out_local_local_0_0 JOB_TERMINATED 98.0 local - 4
+1489707250 stage_out_local_local_0_0 JOB_SUCCESS 0 local - 4
+1489707250 stage_out_local_local_0_0 POST_SCRIPT_STARTED 98.0 local - 4
+1489707256 stage_out_local_local_0_0 POST_SCRIPT_TERMINATED 98.0 local - 4
+1489707256 stage_out_local_local_0_0 POST_SCRIPT_SUCCESS 0 local - 4
+1489707261 cleanup_process_0_local SUBMIT 99.0 local - 5
+1489707266 cleanup_process_0_local EXECUTE 99.0 local - 5
+1489707266 cleanup_process_0_local JOB_TERMINATED 99.0 local - 5
+1489707266 cleanup_process_0_local JOB_SUCCESS 0 local - 5
+1489707266 INTERNAL *** DAGMAN_FINISHED 0 ***
+1489707272 INTERNAL *** MONITORD_FINISHED 0 ***

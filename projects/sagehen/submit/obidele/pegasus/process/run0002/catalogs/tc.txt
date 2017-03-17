@@ -1,0 +1,8 @@
+tr prms {
+    site condorpool {
+        pfn "../../bin/prms"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}

@@ -1,0 +1,12 @@
+2017-03-16 13:08:21: PegasusLite: version 4.7.4
+2017-03-16 13:08:21: Executing on host dewey.cs.pdx.edu
+
+################################ Setting up workdir ################################
+2017-03-16 13:08:21: Not creating a new work directory as it is already set to /var/lib/condor/execute/dir_2489057
+
+###################### figuring out the worker package to use ######################
+2017-03-16 13:08:21: The job contained a Pegasus worker package
+
+############################# executing the user tasks #############################
+2017-03-16 13:08:21: Job failed with exitcode 1
+PegasusLite: exitcode 1

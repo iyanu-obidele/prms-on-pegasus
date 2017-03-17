@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invocation xmlns="http://pegasus.isi.edu/schema/invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pegasus.isi.edu/schema/invocation http://pegasus.isi.edu/schema/iv-2.3.xsd" version="2.3" start="2017-03-16T15:55:48.064-07:00" duration="0.009" transformation="prms" derivation="ID0000001" resource="condorpool" wf-label="process" wf-stamp="2017-03-16T15:52:52-07:00" interface="enp0s31f6" hostaddr="131.252.214.240" hostname="" pid="2509216" uid="8802" user="obidele" gid="300" group="them" umask="0022">
+  <mainjob start="2017-03-16T15:55:48.072-07:00" duration="0.001" pid="2509217">
+    <usage utime="0.000" stime="0.000" maxrss="2988" minflt="123" majflt="0" nswap="0" inblock="0" outblock="8" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="2" nivcsw="1"/>
+    <status raw="0"><regular exitcode="0"/></status>
+    <statcall error="0">
+      <file name="/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/prms">7F454C46020101000000000000000000</file>
+      <statinfo mode="0100777" size="1430272" inode="341775" nlink="1" blksize="1048576" blocks="1360" mtime="2017-03-14T21:26:15-07:00" atime="2017-03-16T13:14:52-07:00" ctime="2017-03-15T23:25:34-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+    </statcall>
+    <argument-vector>
+      <arg nr="1">-C</arg>
+      <arg nr="2">sagehen.control</arg>
+    </argument-vector>
+  </mainjob>
+  <jobids condor="91.0"/>
+  <cwd>/var/lib/condor/execute/dir_2509132</cwd>
+  <usage utime="0.000" stime="0.004" maxrss="1872" minflt="121" majflt="0" nswap="0" inblock="0" outblock="0" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="5" nivcsw="1"/>
+  <machine page-size="4096">
+    <stamp>2017-03-16T15:55:48.064-07:00</stamp>
+    <uname system="linux" nodename="dewey" release="4.4.0-64-generic" machine="x86_64">#85-Ubuntu SMP Mon Feb 20 11:50:30 UTC 2017</uname>
+    <linux>
+      <ram total="16316480" free="10428760" shared="171228" buffer="596972"/>
+      <swap total="3997692" free="3997692"/>
+      <boot idle="7156452.980">2017-02-23T00:17:03.884-08:00</boot>
+      <cpu count="4" speed="3736" vendor="GenuineIntel">Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz</cpu>
+      <load min1="1.06" min5="1.04" min15="1.00"/>
+      <procs total="243" running="2" sleeping="241" vmsize="23157728" rss="1032124"/>
+      <task total="361" running="2" sleeping="359"/>
+    </linux>
+  </machine>
+  <statcall error="0" id="stdin">
+    <file name="/dev/null"/>
+    <statinfo mode="020666" size="0" inode="6" nlink="1" blksize="4096" blocks="0" mtime="2017-02-23T00:17:10-08:00" atime="2017-02-23T00:17:10-08:00" ctime="2017-02-23T00:17:10-08:00" uid="0" user="root" gid="0" group="root"/>
+  </statcall>
+  <statcall error="0" id="stdout">
+    <file name="/var/lib/condor/execute/dir_2509132/prmsRes.txt">0A4552524F52206F70656E696E67206F</file>
+    <statinfo mode="0100644" size="172" inode="145742" nlink="1" blksize="4096" blocks="8" mtime="2017-03-16T15:55:48-07:00" atime="2017-03-16T15:55:48-07:00" ctime="2017-03-16T15:55:48-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="0" id="stderr">
+    <temporary name="/var/lib/condor/execute/dir_2509132/ks.err.yDZ5ch" descriptor="4"/>
+    <statinfo mode="0100600" size="0" inode="145743" nlink="1" blksize="4096" blocks="0" mtime="2017-03-16T15:55:48-07:00" atime="2017-03-16T15:55:48-07:00" ctime="2017-03-16T15:55:48-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+  <statcall error="0" id="metadata">
+    <temporary name="/var/lib/condor/execute/dir_2509132/ks.meta.GfPVEh" descriptor="5"/>
+    <statinfo mode="0100600" size="0" inode="145744" nlink="1" blksize="4096" blocks="0" mtime="2017-03-16T15:55:48-07:00" atime="2017-03-16T15:55:48-07:00" ctime="2017-03-16T15:55:48-07:00" uid="8802" user="obidele" gid="300" group="them"/>
+  </statcall>
+</invocation>

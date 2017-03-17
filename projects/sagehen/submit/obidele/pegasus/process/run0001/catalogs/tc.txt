@@ -1,0 +1,8 @@
+tr ls {
+    site condorpool {
+        pfn "/bin/ls"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}
