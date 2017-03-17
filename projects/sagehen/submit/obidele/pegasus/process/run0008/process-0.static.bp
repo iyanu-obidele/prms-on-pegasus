@@ -1,5 +1,0 @@
-ts=2017-03-16T05:46:39.675216Z event=task.info xwf.id=e7cc8387-c43f-4f71-93c3-cba4a3f6694b task.id="ID0000001" type="1" type_desc="compute" transformation="prms" argv="-C control/sagehen.control" 
-ts=2017-03-16T05:46:39.707388Z event=static.meta.start xwf.id=e7cc8387-c43f-4f71-93c3-cba4a3f6694b 
-ts=2017-03-16T05:46:39.707462Z event=xwf.meta xwf.id=e7cc8387-c43f-4f71-93c3-cba4a3f6694b key="creator" value="obidele@dewey" 
-ts=2017-03-16T05:46:39.707500Z event=xwf.meta xwf.id=e7cc8387-c43f-4f71-93c3-cba4a3f6694b key="created" value="Wed Mar 15 22:45:50 2017" 
-ts=2017-03-16T05:46:39.707554Z event=static.meta.end xwf.id=e7cc8387-c43f-4f71-93c3-cba4a3f6694b 

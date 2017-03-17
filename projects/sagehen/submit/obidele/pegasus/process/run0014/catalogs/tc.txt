@@ -1,8 +1,0 @@
-tr prms {
-    site condorpool {
-        pfn "/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/prms"
-        arch "x86_64"
-        os "LINUX"
-        type "INSTALLED"
-    }
-}

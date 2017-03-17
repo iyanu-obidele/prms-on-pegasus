@@ -1,6 +1,0 @@
-[
-  {
-    "id": 1,
-    "type": "remove",
-    "target": { "site_label": "local", "url": "file:///u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/scratch/obidele/pegasus/process/run0014", "recursive": "True" } }
-]

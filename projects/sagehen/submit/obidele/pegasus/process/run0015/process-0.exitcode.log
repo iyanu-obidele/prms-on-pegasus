@@ -1,4 +1,0 @@
-{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T15:55:17.112741", "name": ".//00/00/create_dir_process_0_local.out", "exitcode": 0, "app_exitcode": 0}
-{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T15:55:32.398435", "name": ".//00/00/stage_in_remote_local_0_0.out", "exitcode": 0, "app_exitcode": 0}
-{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T15:55:52.628023", "name": ".//00/00/prms_ID0000001.out", "exitcode": 0, "app_exitcode": 0}
-{"std_err": "", "retry": 0, "std_out": "", "timestamp": "2017-03-16T15:56:07.876402", "name": ".//00/00/stage_out_local_local_0_0.out", "exitcode": 0, "app_exitcode": 0}
