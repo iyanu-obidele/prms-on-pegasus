@@ -3,15 +3,16 @@ A group effort on getting the Precipitation Runoff Modeling Simulation to run on
 
 # PRMS - Precipitation Runoff Modeling Simulation
 Important directory/files for any modeling simulation:
-- `control/`
-- `input/`
-- `output/`
-- `daxgen.py`
-- `generate_dax.py`
-- `plan_dax.py`
-- `rc.txt`
-- `tc.txt`
-- `sites.xml`
+- `control/`		- contains the control files for the said simulation
+- `input/`		- contains all input files for the said simulation
+- `output/`		- contains all output files for the said simulation
+- `daxgen.py`		- python DAX generator
+- `generate_dax.py`	- shell script that adds Pegasus python library to path and generates DAX using `daxgen.py`
+- `plan_dax.py`		- plans the workflow and submits it to the right specified job pool, condorpool.
+- `rc.txt`		- replication control file. Contains the fully qualified paths for files used in the context of the workflow.
+- `tc.txt`		- transformation control file. Contains the paths to executables, along with architecture requirements of executables used in the context of the workflow.
+- `sites.xml`		- specifies, the directories to be used for scratch, or directories to write output to. etc.
+- `pegasus.properties`	- Tells Pegasus where to find rc.txt, tc.txt and other important config files.
 
 # How to Run
 - Step 1:
@@ -41,3 +42,10 @@ You would need to create a tunnel to achieve this, since we only have remote acc
 
 - Step 3:
   View dashboard on your machine at `https://localhost:<sourcePort>` 
+
+# TL:DR
+For a single workflow run, enter the `sagehen-on-pegasus` directory and simply execute `./plan_dax prms.dax`
+
+For multiple simulations in a workflow (concurrent/parallel runs), enter the `sample-with-multiple-simulations` directory and run `./plan_dax.sh prms2.dax`
+
+Remember to always change the paths in the input files to their fully qualified paths.

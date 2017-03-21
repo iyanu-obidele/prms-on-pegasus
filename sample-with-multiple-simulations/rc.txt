@@ -7,4 +7,5 @@
 # For example:
 #data.txt  file:///tmp/data.txt         site="local"
 #data.txt  http://example.org/data.txt  site="example"
-sagehen.control file:///u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/control/sagehen.control pool="local"
+sagehen.control file:///u/obidele/PERF/PROJ/prms4.0.2_src/sagehen-on-pegasus/control/sagehen.control pool="local"
+acf.control file:///u/obidele/PERF/PROJ/prms4.0.2_src/projects/acf/control/acf.control	pool="local"

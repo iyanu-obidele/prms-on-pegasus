@@ -9,8 +9,8 @@
             <file-server operation="all" url="file:///u/obidele/PERF/PROJ/prms4.0.2_src/scratch"/>
         </directory>
         <!-- This is where output data will be stored -->
-        <directory type="shared-storage" path="/u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/output">
-            <file-server operation="all" url="file:///u/obidele/PERF/PROJ/prms4.0.2_src/projects/sagehen/output"/>
+        <directory type="shared-storage" path="/u/obidele/PERF/PROJ/prms4.0.2_src/output">
+            <file-server operation="all" url="file:///u/obidele/PERF/PROJ/prms4.0.2_src/output"/>
         </directory>
     </site>
 
